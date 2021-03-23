@@ -5,29 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Calculator - ITAcademy Assigment</title>
 </head>
 <body>
     <h1>Calculator - ITAcademy Assigment</h1>
-    <div class="inputed">
-        <span id="firstNumber">3</span><span id="operator">*</span><span id="secondNumber">4</span>
+    <div class="resultContainer">
+        <div class="displayContainer">
+            <div type="text" id="display"></div>
+        </div>
+        <div class="resulted">Last result:<span id="resultNumber"></span></div>
     </div>
-    <div class="result">44</div>
     <div class="buttonContainer">
-        <div class="btn" id="1">1</div>
-        <div class="btn" id="2">2</div>
-        <div class="btn" id="3">3</div>
-        <div class="btn" id="4">4</div>
-        <div class="btn" id="5">5</div>
-        <div class="btn" id="6">6</div>
-        <div class="btn" id="7">7</div>
-        <div class="btn" id="8">8</div>
-        <div class="btn" id="9">9</div>
-        <div class="btn" id="0">0</div>
-        <div class="btn" id='add_sign'>+</div>
-        <div class="btn" id='minus_sign'>-</div>
-        <div class="btn" id='multiplay_sign'>*</div>
-        <div class="btn" id='divide_sign'>/</div>
+        <div class="btn">1</div>
+        <div class="btn">2</div>
+        <div class="btn">3</div>
+        <div class="btn">4</div>
+        <div class="btn">5</div>
+        <div class="btn">6</div>
+        <div class="btn">7</div>
+        <div class="btn">8</div>
+        <div class="btn">9</div>
+        <div class="btn">+</div>
+        <div class="btn">0</div>
+        <div class="btn">-</div>
+        <div class="btn">*</div>
+        <div class="btn">/</div>
+        <div class="btn">.</div>
+        <div class="btn">(</div>
+        <div class="btn">)</div>
+        <div class="btn red">CA</div>
+        <div class="btn red" id="equal_sign">=</div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

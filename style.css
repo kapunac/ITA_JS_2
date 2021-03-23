@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color:#fff;
+    background: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Merriweather', serif;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    background:rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1px);
+
+}
+.resultContainer{
+    position: relative;
+    background:rgba(0, 0, 0, 0.5);
+    width: 50%;
+    min-width: 350px;
+    left:50%;
+    top:10%;
+    transform: translate(-50%,-10%);
+    text-align: center;
+    padding: 15px;
+    font-size:1.3em;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.resulted{
+    background:rgba(0, 0, 0, 0.5);
+    margin: 15px;
+    padding: 10px;
+
+}
+#display{
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+    text-align: right;
+    margin: 10px;
+    border:1px solid rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    width: 80%;
+    height: 46px;
+    background: rgba(0, 0, 0, 0.5);
+    color:white;
+    font-size:1.3em;
+    border-radius: 5px;
+}
+#resultNumber{
+    margin: 10px;
+    border:1px solid rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+}
+.buttonContainer{
+    width:300px;
+    height: 300px;
+    display:flex;
+    position: relative;
+    flex-wrap: wrap;
+    left:50%;
+    top:25%;
+    transform: translate(-50%,-25%);
+    background:rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size:1.2em;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+}
+
+.btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    border:1px solid rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 2px;
+    
+}
+.btn:hover{
+    transform: scale(1.05);
+    border:1px solid rgba(255, 255, 255, 1);
+    background:rgba(0, 0, 0, 0.5);
+}
+.btn:active{
+    transform: scale(0.95);
+}
+.red{
+    background:rgba(255, 68, 0, 0.63);
+}
+.red:hover{
+    background:rgba(255, 68, 0, 0.8);
+}
+#equal_sign{
+    width:235px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 400px) {
+    body {
+      font-size:14px;
+    }
+    h1{
+        font-size:12px;
+    }
+  }
